@@ -60,7 +60,13 @@ Your group modifications should add a code chunk to this document that
 Group 1
 ===
 
-Insert some text here
+Team members:
+Caitlin Currey
+Yuquan Liew 
+Edwin Lansangan
+Shuman Partoredjo
+Raymond Tsui
+William McDermott
 
 ```{r}
 #Code blocks can go inside these quoted delimeters
