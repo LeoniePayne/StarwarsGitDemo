@@ -81,11 +81,11 @@ Insert some text here
 Workflow for observing correlations
 ===
 
-Insert some text here
+By using the cor() function, we find that there is a negative correlation between height and BMI in the StarWars universe of -0.46
 
 ```{r}
 #Code blocks can go inside these quoted delimeters
-
+cor(newStarwars$height, newStarwars$BMI)
 ```
 
 Group 4
