@@ -25,8 +25,15 @@ Group 7
 Group 8
 ===
 
-Group 9
+## Room 9
 ===
+
+- Charlotte
+- Paul
+- Manasa
+- Mo
+- Lily
+- Ron
 
 Group 10
 ===
