@@ -78,7 +78,7 @@ Insert some text here
 
 ```
 
-Group 3
+Workflow for observing correlations
 ===
 
 Insert some text here
