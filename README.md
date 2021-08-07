@@ -6,6 +6,12 @@ Group 1
 
 Group 2
 ===
+Stefan Hall
+Lauran Fuentes
+Akhtar Masood
+Gerardo Restropo
+Jean Koh
+Shangqing Yang
 
 Group 3
 ===
