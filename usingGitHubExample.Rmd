@@ -86,6 +86,14 @@ By using the cor() function, we find that there is a negative correlation betwee
 ```{r}
 #Code blocks can go inside these quoted delimeters
 cor(newStarwars$height, newStarwars$BMI)
+
+slm <- lm(BMI ~ height, data = newStarwars)
+
+ggplot(data = newStarwars, mapping = aes(x = height, y = BMI)) + geom_point() + geom_smooth(method = 'lm')
+
+summary(slm)
+
+plot(slm)
 ```
 
 Group 4
