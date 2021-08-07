@@ -86,14 +86,22 @@ Insert some text here
 
 ```
 
-Group 3
+Workflow for observing correlations
 ===
 
-Insert some text here
+By using the cor() function, we find that there is a negative correlation between height and BMI in the StarWars universe of -0.46
 
 ```{r}
 #Code blocks can go inside these quoted delimeters
+cor(newStarwars$height, newStarwars$BMI)
 
+slm <- lm(BMI ~ height, data = newStarwars)
+
+ggplot(data = newStarwars, mapping = aes(x = height, y = BMI)) + geom_point() + geom_smooth(method = 'lm')
+
+summary(slm)
+
+plot(slm)
 ```
 
 Group 4
