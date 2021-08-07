@@ -76,6 +76,15 @@ Insert some text here
 ```{r}
 #Code blocks can go inside these quoted delimeters
 
+data_iris <- iris
+
+str(data_iris)
+
+iris_lm <- lm(Sepal.Length ~ Sepal.Width, data = data_iris)
+
+summary(iris_lm)
+
+
 ```
 
 Group 3
